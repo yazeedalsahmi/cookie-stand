@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    /* margin:0; */
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: Arial;
+    padding: 30px;
+}
+header{
+    text-align: center;
+    padding: 20px;
+    background-color:rgba(30, 143, 255, 0.514);
+}
+
+nav{
+    background-color:rgb(34, 33, 32);
+
+   
+}
+nav ul { 
+    position: relative;
+    
+    
+}
+
+nav ul li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+    height: 90px;        /* if you want it to take the full height of the bar */
+    line-height: 90px;   
+    
+    }
+#logo{
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 70px; 
+    margin-right: 20px;
+    margin-top: 8px
+    ;  
+    
+}
+/*nav ul li:last-child{
+    position: absolute;
+    right: 30px;
+}*/
+
+
+
+nav ul li a{
+    color:seashell;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+#first-pic{
+    width: 100%;
+    float: left;
+    background-color:rgba(30, 143, 255, 0.514);
+        /* margin: 0; */
+}
+.placeholder{
+    width: 960px;
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.pic{
+   display: block;
+
+  
+}
+.pic1{
+    float: left;
+    width: 340px;
+    padding: 30px;
+   
+}
+.placeholder1{
+    width: 100%;
+    height: 375px;
+    margin-left: 210px;
+    
+}
+
+#third-pic{
+    float: left;
+    display: block;
+    width: 50%;
+
+}
+#two{
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color:rgba(255, 217, 0, 0.726);
+}
+
+
+.placeholder2{
+    display: inline-block;
+    width: 480px;
+    height: 400px;
+    padding: 20px;
+    margin-left: 210px;
+    background-color:rgba(255, 217, 0, 0.726);
+
+}
+#text{
+    
+    width: 50%;
+    display: block;
+    float: right;
+
+}
+
+
+
+
+article p {
+    background-color:rgba(255, 217, 0, 0.726);
+    width: 50%;
+    height: 300px;
+    padding: 20px;
+    
+}
+footer{
+    clear:both;
+}
+
+footer p{
+    padding: 20px;
+    text-align: center;
+    color:honeydew;
+    background-color:rgb(34, 33, 32);
+    font-weight: bold;
+}
