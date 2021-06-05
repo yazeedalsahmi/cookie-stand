@@ -5,17 +5,17 @@
 
 body{
     background-color: #f3d08e;
-    font-family: Arial;
-    padding: 30px;
+   
+    padding: 20px;
 }
 header{
     text-align: center;
-    padding: 10px;
+    
     background-color:#aa6d47cc;
     color:#3e4238;
     font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 
 nav{
     background-color:#3e4238;
@@ -62,16 +62,28 @@ nav ul li a{
 }
 h1 {
     font-weight: bold;
-    font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-family: 'Lobster', cursive;
     color: #3e4238;
 
 }
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #89452c;
+    font-weight: bold;
+    font-size: 40px;
+}
+ul li {
+    font-size: 30px;
+    color: #89452c;
+
+}
 ul li a{
-    color:#a54e2a;
+    color:#3e4238;
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -169,4 +181,64 @@ footer p{
     color:honeydew;
     background-color:rgb(34, 33, 32);
     font-weight: bold;
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: thick;
+    text-align: center;
+    background-color: #aa6d47cc;
+    border: solid #3e4238;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+th{
+    border: thick;
+    border: solid #3e4238;
+    color:honeydew;
+}
+td{
+    border: thick;
+    border: solid #3e4238;
+    color: honeydew;
+}
+tr{
+    border: thick;
+    border: solid #3e4238;
+    color: honeydew;
+
+}
+#locationForm{
+    background-color: #aaa29d;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 40%;
+    height: 200px;
+}
+h3{
+    font-weight: bold;
+}
+button{
+    background-color: #aaa29d;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 160pX;
+    height: 60px;
+
+    
+
+}
+button a{
+    text-decoration: none;
+    color: rgb(34, 33, 32) ;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: #3e4238;
+    font-weight: bold;
+    font-size: 30px;
 }
